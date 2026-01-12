@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Test & coverage output
+coverage/
+.vitest/
+*.log
+
+# Build artifacts (the distributable HTML is committed; intermediate temp is not)
+.build_tmp/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
