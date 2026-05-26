@@ -1,0 +1,33 @@
+{
+  "name": "gnafor-field-collector",
+  "version": "1.1.0",
+  "description": "Mobile-first, single-file web application for systematic field data collection in tropical forage grass experiments.",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "coverage": "vitest run --coverage",
+    "build": "python build.py",
+    "i18n:check": "node scripts/translate_check.js"
+  },
+  "keywords": [
+    "forage-agronomy",
+    "field-data-collection",
+    "morphogenesis",
+    "tropical-grasses",
+    "progressive-web-app",
+    "Urochloa",
+    "pasture-science"
+  ],
+  "author": "Vinicius Valim Pereira <vinicius.pereira@uemg.br>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/viniciusvalimpereira/gnafor-field-collector"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^4.1.7",
+    "jsdom": "^29.1.1",
+    "vitest": "^4.1.7"
+  }
+}
