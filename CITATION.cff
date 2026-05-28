@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "GNAFOR Field Collector — Mobile-first web application for systematic field data collection in tropical forage grass experiments"
+authors:
+  - family-names: Pereira
+    given-names: Vinícius Valim
+    affiliation: "Universidade do Estado de Minas Gerais (UEMG) — Unidade Divinópolis"
+    orcid: "https://orcid.org/[SEU-ORCID]"
+abstract: "Single-file, offline-capable web application (HTML5/CSS3/JavaScript) for systematic field data collection in tropical forage grass experiments. Four integrated modules (leaf morphogenesis, tillering, dry mass production, canopy height) with client-side validation, GPS tagging, bilingual PT/EN interface, localStorage capacity management, and real-time Google Sheets synchronization."
+version: "1.1.0"
+doi: "10.5281/zenodo.19266282"
+date-released: "2026-05-28"
+license: MIT
+url: "https://github.com/viniciusvalimpereira/gnafor-field-collector"
+repository-code: "https://github.com/viniciusvalimpereira/gnafor-field-collector"
+keywords:
+  - forage agronomy
+  - morphogenesis
+  - field data collection
+  - tropical grasses
+  - progressive web app
+  - Urochloa
+  - pasture science
+  - research tools
+  - Brazil
